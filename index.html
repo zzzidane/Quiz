@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz JavaScript</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>Question 1 : Quelle est la capitale du Gabon ?</p>
+        <label><input type="radio" name="q1" value="Paris"> Libreville</label><br>
+        <label><input type="radio" name="q1" value="Londres"> Port-Genctil</label><br>
+        <label><input type="radio" name="q1" value="Berlin"> Franceville</label><br>
+      </div>
+
+      <div class="question">
+        <p>Question 2 : Quel langage est utilisé pour le style des pages web ?</p>
+        <label><input type="radio" name="q2" value="HTML"> HTML</label><br>
+        <label><input type="radio" name="q2" value="CSS"> CSS</label><br>
+        <label><input type="radio" name="q2" value="JavaScript"> JavaScript</label><br>
+      </div>
+
+      <button type="button" onclick="calculateScore()">Soumettre</button>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
